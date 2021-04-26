@@ -1,0 +1,66 @@
+
+  body{
+  background-image: url("h21.jpg");
+  background-size: cover;
+  }
+
+  .me {
+      float: right;
+      padding-right: 50px;
+      top: -30px;
+       width: 130px;
+       height: 195px;
+       position: relative;
+       display: inline-block;
+       margin: 50px;
+   }
+   .me .back {
+       display: none;
+       position: absolute;
+       top: 0;
+       left: 0;
+       z-index: 99;
+   }
+   .me:hover .back {
+       display: inline;
+   }
+
+
+  .logo{
+    position: fixed;
+    bottom: 10px;
+    left: 1%;
+    border: 4px double white;
+    border-radius: 20px;  // partially rounded corners
+    transition: transform .2s;
+  }
+
+
+
+  .icon{
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    transition: transform .2s;
+  }
+
+  .icon:hover {
+  transform: scale(1.4);
+}
+
+.player{
+position: absolute;
+top: 270px;
+margin-left: 1000px;
+
+
+}
+
+.q{
+  position: absolute;
+  top: 4%;
+  left: 18%;
+  text-align: center;
+  display: block;
+  padding-right: 30px;
+}

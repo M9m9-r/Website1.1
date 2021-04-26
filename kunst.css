@@ -1,0 +1,79 @@
+
+  body{
+  background-image: url("h21.jpg");
+  background-size: cover;
+  }
+
+  .me {
+      float: right;
+      padding-right: 50px;
+      padding-top: -75px;
+       width: 130px;
+       height: 195px;
+       position: relative;
+       display: inline-block;
+       margin: 50px;
+   }
+   .me .back {
+       display: none;
+       position: absolute;
+       top: 0;
+       left: 0;
+       z-index: 99;
+   }
+   .me:hover .back {
+       display: inline;
+   }
+
+
+  .logo{
+    position: fixed;
+    bottom: 10px;
+    left: 1%;
+    border: 4px double white;
+    border-radius: 20px;  // partially rounded corners
+    transition: transform .2s;
+  }
+
+
+
+  .icon{
+    position: relative;
+    padding-top: 10px;;
+    padding-bottom: 20px;
+    transition: transform .2s;
+  }
+
+
+  .icon:hover {
+  transform: scale(1.4);
+}
+
+.container{
+  position: absolute;
+  top: 4%;
+  left: 18%;
+  text-align: center;
+  display: block;
+  padding-right: 30px;
+}
+
+.container2{
+  position: absolute;
+  top: 47%;
+  left: 12%;
+  text-align: center;
+  display: block;
+  padding-right: 30px;
+}
+
+.bild{
+  margin: 10px;
+  transition: transform .2s;
+}
+
+.bild:hover{
+  transform: scale(2.5);
+  z-index: 1;
+  position: relative;
+}
