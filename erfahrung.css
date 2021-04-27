@@ -5,9 +5,9 @@
   }
 
   .me {
-      float: right;
-      padding-right: 50px;
-      padding-top: -75px;
+       float: right;
+      padding-right: 3%;
+      top: -18px;
        width: 130px;
        height: 195px;
        position: relative;
